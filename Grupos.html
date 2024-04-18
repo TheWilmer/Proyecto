@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Grupos</title>
+ <link rel="stylesheet" href="Css/Estilo.css">
+</head>
+<body>
+ <header>
+ <h1>Wilmer Campos Pelaez</h1>
+ <h4>Cel: +51 942 664 517 | Correo: Grubla321@hotmail.com | Direccion: Jr Garro 299</h4>
+ <h4>Estibador en ARONA | Grado en Arquitectura Técnica</h4>
+ <nav>
+ <ul>
+ <li><a href="Trabajo.html">Inicio</a></li>
+ <li><a href="Grupos.html">Grupos</a></li>
+ <li><a href="#">Empresas</a></li>
+ <li><a href="#">Contacto</a></li>
+ </ul>
+ </nav>
+ </header>
+
+ <main>
+  <div class="container">
+    <div class="column">
+      <center><section class="activity-container">
+        <h1>Podría gustarte</h1>
+        <p><h2>Red de Recursos Humanos - Red de RRHH</h2></p>
+        <p><h4>227.916 Miembros</h4></p>
+        <img src="Imagenes/Logo1.jfif" width="125" height="120" align="center">
+        <br><br>
+          <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+        <p><h2>Trabajo Remoto / Home Office / Tele Trabajo / trabajofeliz / Nómade Digital</h2></p>
+        <p><h4>326.760 Miembros</h4></p>
+        <img src="Imagenes/Logo2.jfif" width="125" height="120" align="center">
+        <br><br>
+        <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+        <p><h2>Trabajos en Chile de chiletrabajos</h2></p>
+        <p><h4>71.948 Miembros<h4></p>
+        <img src="Imagenes/Logo3.jfif" width="125" height="120" align="center">
+        <br><br>
+          <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+          <p><h2>Recursos Humanos 4.0 en Peru</h2></p>
+        <p><h4>31.255 Miembros<h4></p>
+        <img src="Imagenes/Logo4.jfif" width="125" height="120" align="center">
+        <br><br>
+          <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+          <p><h2>Perú-Retail</h2></p>
+        <p><h4>37.900 Miembros<h4></p>
+        <img src="Imagenes/Logo5.jfif" width="125" height="120" align="center">
+        <br><br>
+          <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+          <p><h2>Comunidad Practica Ya!</h2></p>
+        <p><h4>54.436 Miembros<h4></p>
+        <img src="Imagenes/Logo6.jfif" width="125" height="120" align="center">
+        <br><br>
+          <a href="https://tu-enlace-aquí.com" class="join-button">Unirse</a>
+      </section></center>
+    </div>
+    <div class="column">
+      <div class="image-wrapper">
+        <img src="Imagenes/Portada.jpeg" alt="Imagen de portada" class="cover-photo">
+        <img src="Imagenes/Perfil.jpeg" alt="Imagen de perfil" class="profile-photo">
+      </div>
+      <div class="about-me">
+        <h2>Wilmer Campos Pelaez</h2>
+      </div>
+    </div>
+  </div>
+</main>
+ <footer id="footer">
+ <p>Derechos de autor &copy; 2024 GuardWolf</p>
+ </footer>
+ <script>
+   let lastScrollTop = 0;
+
+   window.addEventListener("scroll", function() {
+     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+     
+     if (scrollTop > lastScrollTop) {
+       // Desplazamiento hacia abajo
+       document.getElementById("footer").style.transform = "translateY(100%)";
+     } else {
+       // Desplazamiento hacia arriba
+       document.getElementById("footer").style.transform = "translateY(0)";
+     }
+     
+     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Evitamos valores negativos
+   }, false);
+ </script>
+</body>
+</html>

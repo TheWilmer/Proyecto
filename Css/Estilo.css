@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #080d4d;
+  background-color: #474c91;
   color: #fff;
   padding: 20px;
 }
@@ -61,8 +61,8 @@ section {
 }
 
 .profile-photo {
-  width: 75px;
-  height: 100px;
+  width: 100px;
+  height: 130px;
   border-radius: 50%;
   border: 5px solid #fff;
   z-index: 1;
@@ -103,7 +103,7 @@ section {
   margin-right: 20px;
 }
 .activity-container2 {
-  background-color: #b4063a;
+  background-color: #e3910c;
   border-radius: 20px;
   padding: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -111,14 +111,14 @@ section {
 }
 
 .activity-container3 {
-  background-color: #09476b;
+  background-color: #1ccdc1;
   border-radius: 20px;
   padding: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-right: 20px;
 }
 .activity-container4 {
-  background-color: #053d05;
+  background-color: #19d619;
   border-radius: 20px;
   padding: 15px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
